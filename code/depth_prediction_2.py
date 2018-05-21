@@ -9,7 +9,7 @@ but with your own username.
 '''
 
 import network_functions_2 as nf
-import tensorflow-gpu as tf
+import tensorflow as tf
 import read_data_2 as rd
 #import os
 import pathlib

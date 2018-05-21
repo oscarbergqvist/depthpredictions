@@ -14,7 +14,7 @@ This makes it easier to access the variables from any scope and
 results in a nice visualization in tensorboard.
 '''
 
-import tensorflow-gpu as tf 
+import tensorflow as tf 
 import read_data_2 as rd
 import math 
 import numpy as np
