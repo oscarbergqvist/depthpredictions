@@ -1,0 +1,45 @@
+Projektplanering + Att-göra-lista:
+
+Projektuppdelning:
+1. Implementera ett nätverk som hanterar enskilda superpixlar, 5CNN+4FC struktur
+2. Implementera CRF loss layer
+3. Implementera ett nätverk som beräknar parvis likhet (pair wise similarity), 1FC
+4. Preprocessing
+5. Postprocessing
+6. Implementera något som mäter experimentens framgång
+
+Preprocessing: Embla (Elin)
+Pairwise analysis: Elin (Oscar)
+Unary analysis: Oscar (Embla)
+
+Att tänka på: 
+a) Input/output för varje del? (UML-diagram)
+b) Test innan körning på superdatorn
+
+
+Vecka 15: 
+- Läsa på/samla information
+- Skaffa konto för tunga beräkningar --> Elin
+
+Vecka 16: 
+- Skissa programstruktur
+- Dela upp 
+- Läsa på om sina områden + Tensor & CRF
+	MÅL: Färdigprogramstruktur
+
+Vecka 17: 
+
+	Mål: Kunna påbörja träning
+
+Vecka 18: 
+- Påbörja riktiga körningar
+
+Vecka 19: (Elin borta)
+
+Vecka 20: 
+-Rapportskrivning
+-Deadline 19/5
+
+
+Senare
+-Presentation 24/5-6/6 (Föredrar tidigt pga tentor!)

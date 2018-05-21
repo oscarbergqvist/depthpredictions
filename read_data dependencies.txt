@@ -1,0 +1,9 @@
+read_data beroenden: 
+
+Vilka moduler / funktioner använder read_data? 
+
+depth_prediction_2
+- tidigt i programmet använder 
+
+
+network_functions_2
