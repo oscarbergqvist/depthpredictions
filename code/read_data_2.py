@@ -19,10 +19,10 @@ with tf.variable_scope("read_data"):
 
 		Comments: 
 		'''
-		mat_contents = sio.loadmat('depth_datasetNYUv2.mat')
+		mat_contents = sio.loadmat('subset_depthdata.mat')
 
-		images = mat_contents['images']
-		depth_maps = mat_contents['depths']
+		images = mat_contents['sub_images']
+		depth_maps = mat_contents['sub_depths']
 
 		images = np.moveaxis(images, -1, 0)
 		depth_maps = np.moveaxis(depth_maps, -1, 0)
