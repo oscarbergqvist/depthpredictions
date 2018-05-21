@@ -34,7 +34,7 @@ with tf.Session() as session:
 	# tensorboard writer CHANGE THE DIR NUMBER EVERY RUN (27 -> 28 -> 29 etc.)
 	# tensorboard/* in .gitignore 
 
-	logdir = "03"  
+	logdir = "01"  
 
 
 	writer = tf.summary.FileWriter("./tensorboard/debug/" + logdir + "/", session.graph)
